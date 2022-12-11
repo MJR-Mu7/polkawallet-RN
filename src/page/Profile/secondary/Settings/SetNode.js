@@ -37,7 +37,7 @@ class SetNode extends Component {
     super(props)
     this.state = {
       node: '',
-      chooseNode: 'wss://kusama-rpc.polkadot.io/',
+      chooseNode: 'wss://apps.digitaltv.co.ke',
       isCustom: false
     }
     this.back = this.back.bind(this)
@@ -100,9 +100,9 @@ class SetNode extends Component {
           style: 'cancel'
         },
         {
-          text: 'ws://rpc.polkawallet.io:9944/',
+          text: 'ws://',
           onPress: () => {
-            this.setState({ chooseNode: 'ws://rpc.polkawallet.io:9944/' })
+            this.setState({ chooseNode: 'ws://' })
           },
           style: 'cancel'
         },
